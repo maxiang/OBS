@@ -1,0 +1,39 @@
+﻿生成启动时间为 2017/6/6 10:21:27。
+     1>项目“D:\cike\obs\OBS.git\PluginStore\pluginstore.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /Iqtwinmigrate\src /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtWebEngineWidgets /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtWidgets /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtWebEngineCore /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtQuick /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtGui\5.7.0 /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtGui\5.7.0\QtGui /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtGui /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtANGLE /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtWebChannel /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtQml /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtNetwork /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtSql /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtCore\5.7.0 /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtCore\5.7.0\QtCore /I..\..\..\..\qt\qt5.7.0\5.7\msvc2013\include\QtCore /Idebug /I. /I"..\..\..\..\qt\qt5.7.0\5.7\msvc2013\mkspecs\win32-msvc2013" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WEBENGINEWIDGETS_LIB /D QT_WIDGETS_LIB /D QT_WEBENGINECORE_LIB /D QT_QUICK_LIB /D QT_GUI_LIB /D QT_WEBCHANNEL_LIB /D QT_QML_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D QT_CORE_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt -w34100 -w34189 -w44996 obsqt.cpp webpluginevent.cpp
+         obsqt.cpp
+     1>obsqt.cpp(53): warning C4100: “file”: 未引用的形参
+     1>obsqt.cpp(63): warning C4100: “data_path”: 未引用的形参
+         webpluginevent.cpp
+     1>webpluginevent.cpp(171): warning C4100: “qiPluginId”: 未引用的形参
+     1>webpluginevent.cpp(193): warning C4101: “qiPluginId”: 未引用的局部变量
+     1>webpluginevent.cpp(296): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>webpluginevent.cpp(377): warning C4100: “ok”: 未引用的形参
+     1>webpluginevent.cpp(395): warning C4129: “/”: 不可识别的字符转义序列
+         正在生成代码...
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\pluginstore.dll" /NOLOGO /LIBPATH:D:\Qt\Qt5.7.0\5.7\msvc2013\lib /LIBPATH:D:\Qt\Qt5.7.0\5.7\msvc2013\lib user32.lib D:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5WebEngineWidgetsd.lib D:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5Widgetsd.lib D:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5WebEngineCored.lib D:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5Quickd.lib D:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5Guid.lib D:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5WebChanneld.lib D:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5Qmld.lib D:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5Networkd.lib D:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5Sqld.lib D:\Qt\Qt5.7.0\5.7\msvc2013\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\pluginstore.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL Win32\Debug\moc_pluginstore.obj
+         Win32\Debug\moc_qwinhost.obj
+         Win32\Debug\moc_qwinwidget.obj
+         Win32\Debug\moc_webpluginevent.obj
+         Win32\Debug\obsqt.obj
+         Win32\Debug\plugindb.obj
+         Win32\Debug\pluginstore.obj
+         Win32\Debug\qmfcapp.obj
+         Win32\Debug\qwinhost.obj
+         Win32\Debug\qwinwidget.obj
+         Win32\Debug\webpluginevent.obj
+            正在创建库 debug\\pluginstore.lib 和对象 debug\\pluginstore.exp
+         pluginstore.vcxproj -> D:\cike\obs\OBS.git\PluginStore\debug\pluginstore.dll
+       PostBuildEvent:
+         copy debug\pluginstore.dll ..\rundir\plugins
+         copy debug\pluginstore.dll ..\debug\plugins
+         :VCEnd
+         已复制         1 个文件。
+         已复制         1 个文件。
+     1>已完成生成项目“D:\cike\obs\OBS.git\PluginStore\pluginstore.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.46
